@@ -1,0 +1,110 @@
+<!--  <copyright Catenda AS>
+ Copyright (c) 2013 All Right Reserved, http:catenda.no/
+
+ This source is owned by Catenda AS
+ Do not distribute, or use the code or products made with this code, 
+ without the written permission from Catenda.  All other rights reserved.
+
+ THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY 
+ KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
+ PARTICULAR PURPOSE.
+
+ </copyright>
+ <author>Djordje Nedeljkovic</author> -->
+ 
+<div data-theme="a" data-role="header">
+  <h3>
+    Objekt
+  </h3>
+  <a id="back-to-area-from-object" data-role="button" data-transition="slide" data-icon="arrow-l"
+  data-iconpos="left" class="ui-btn-left">
+  Tilbake
+</a>
+</div>
+<div data-role="content">
+  <div class="ui-grid-a" id="object-images-holder">  
+  </div>
+  <ul data-role="listview" data-divider-theme="b" data-inset="true">
+    <li data-role="list-divider" role="heading">
+      NS 3451 kode
+    </li>
+    <li data-theme="c">
+      <a id="object-classification" data-transition="slide">
+        <span id="classification-name"></span>
+        <span id="classification-number" class="ui-li-count">
+        </span>
+      </a>
+    </li>
+	<li data-theme="c">
+		<a id="object-images">
+			Bilder
+			<span class="ui-li-count">
+			</span>
+		</a>
+	</li>    
+  </ul>
+  <div data-role="fieldcontain">
+    <input name="" id="name" type="text">
+  </div>
+  <div data-role="fieldcontain">
+    <input name="" id="amount" value="" type="text">
+  </div>
+  <div data-role="fieldcontain">
+    <select id="unit" name="">
+    </select>
+  </div>
+  <div data-role="fieldcontain">
+    <label for="conditionRating">
+      Tilstandsgrad
+    </label>
+    <select id="conditionRating" name="">
+      <option value="0">
+        TGUI - ikke undersøkt
+      </option>
+      <option value="1">
+        TG0 - ingen avvik
+      </option>
+      <option value="2">
+        TG1 - Mindre eller moderate avvik
+      </option>
+      <option value="3">
+        TG2 - Vesentlige avvik
+      </option>
+      <option value="4">
+        TG3 - Store eller alvorlige avvik
+      </option>
+    </select>
+  </div>		  
+  <div data-role="fieldcontain">
+    <textarea name="" id="conditionNote1" placeholder="Materiale, merke, etc."></textarea>
+  </div>
+  <div data-role="fieldcontain">
+    <textarea name="" id="conditionNote2" placeholder="Enøk, miljø og utforming."></textarea>
+  </div>  
+  <div data-role="navbar" data-iconpos="left">
+    <ul>
+      <li>
+        <a id="new-unit" data-transition="fade" data-theme="" data-icon="plus">
+          Lag ny enhet
+        </a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <a id="delete-object" data-transition="fade" data-theme="" data-icon="minus">
+          Delete object
+        </a>
+      </li>
+    </ul>    
+  </div>
+  <div data-role="tabbar" data-iconpos="left" data-theme="a">
+    <ul>
+     <li>
+      <a id="save" data-transition="fade" data-theme="" data-icon="check">
+       Lagre
+     </a>
+   </li>
+ </ul>
+</div>  		  
+</div>

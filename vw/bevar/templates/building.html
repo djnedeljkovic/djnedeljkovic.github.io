@@ -1,0 +1,69 @@
+<!--  <copyright Catenda AS>
+ Copyright (c) 2013 All Right Reserved, http:catenda.no/
+
+ This source is owned by Catenda AS
+ Do not distribute, or use the code or products made with this code, 
+ without the written permission from Catenda.  All other rights reserved.
+
+ THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY 
+ KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
+ PARTICULAR PURPOSE.
+
+ </copyright>
+ <author>Djordje Nedeljkovic</author> -->
+ 
+<div data-theme="a" data-role="header">
+	<h1>
+		Bygning
+	</h1>
+	<a data-role="button" data-icon="arrow-l" data-iconpos="left"
+	class="ui-btn-left" id="back-from-building">
+	Tilbake
+</a>
+</div>
+<div data-role="content">
+
+	<!--  	//TODO dj Add if possible the first of the images for the building as a thumbnail. Put it in the middle of the screen. -->
+
+	<h3 id="address"></h3>
+
+	<ul data-role="listview" data-divider-theme="b" data-inset="true">
+		<li data-theme="c">
+			<a id="building-type">
+				Type
+				<span class="ui-li-count">
+				</span>
+			</a>
+		</li>
+		<li data-theme="c">
+			<a id="images">
+				Bilder
+				<span class="ui-li-count">
+				</span>
+			</a>
+		</li>
+	</ul>
+	<ul data-role="listview" data-divider-theme="b" data-inset="true" id="area-list">
+		<li data-role="list-divider" role="heading">
+			Område
+		</li>
+	</ul>
+</div>
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+	<div data-role="navbar" data-iconpos="left">
+		<ul>
+			<li>
+				<a id="new-area" data-transition="none" data-theme="" data-icon="plus">
+					Nytt område
+				</a>
+			</li>
+<!-- //No longer relevant.   <li>
+			  <a id="new-property" data-transition="fade" data-theme="" data-icon="plus">
+				  Ny eiendom
+			  </a>
+			</li> -->
+		</ul>
+	</div>
+</div>

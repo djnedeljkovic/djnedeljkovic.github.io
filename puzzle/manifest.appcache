@@ -1,0 +1,19 @@
+CACHE MANIFEST
+
+CACHE:
+index.html
+css/main.css
+js/piece.js
+js/highscore.js
+js/puzzle.js
+images/logo16.png
+images/logo32.png
+images/logo48.png
+images/logo60.png
+images/logo64.png
+images/logo128.png
+
+NETWORK:
+*
+http://*
+https://*

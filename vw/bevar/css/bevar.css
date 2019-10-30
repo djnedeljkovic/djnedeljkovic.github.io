@@ -1,0 +1,13 @@
+*{
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+input, textarea {
+    -webkit-user-select: auto;
+}
+
+#revision {
+	text-align: right;
+	font-size: 11px;	
+}
+

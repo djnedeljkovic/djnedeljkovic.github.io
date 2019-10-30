@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/main.css">	
+	<script src="js/highscore.js"></script>
+	<script src="js/piece.js"></script>
+	<script src="js/puzzle.js"></script>
+    <title>Puzzle generator</title>
+</head>
+<body>
+	<div id="puzzleControls">
+	  <button id="newgame">New Game</button>
+	  <button id="restartgame">Restart Game</button>
+	  <button id="highscore">Highscore</button>
+	</div>
+	<div id="imageHolder">
+	</div>
+	<form id="startScreen" class="hidden">		
+		<p>
+			<label for="image">Click or Tap to pick an image to generate puzzle</label>
+			<input type="file" id="image" size="10" />
+		</p>
+	</form>
+</body>
+</html>

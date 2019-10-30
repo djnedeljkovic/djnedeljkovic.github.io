@@ -1,0 +1,110 @@
+<!--  <copyright Catenda AS>
+ Copyright (c) 2013 All Right Reserved, http:catenda.no/
+
+ This source is owned by Catenda AS
+ Do not distribute, or use the code or products made with this code, 
+ without the written permission from Catenda.  All other rights reserved.
+
+ THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY 
+ KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
+ PARTICULAR PURPOSE.
+
+ </copyright>
+ <author>Djordje Nedeljkovic</author> -->
+ 
+<div data-theme="a" data-role="header">
+	<h3>
+		Oppdrag
+	</h3>
+	<a data-role="button" data-transition="slide" data-icon="arrow-l"
+	data-iconpos="left" class="ui-btn-left" id="back-to-projects-from-project">
+	Tilbake
+</a>
+</div>
+<div data-role="content">
+	<h3 id="project-name"></h3>
+	<a id="synchronize" data-role="button" data-theme="b" data-icon="refresh"
+	data-iconpos="left">
+	Klikk for å laste opp endringer</a>
+	<div data-role="popup" id="synchronisationProgress"><p>Laster opp endringer - vennligst vent<p></div>	
+	<ul data-role="listview" data-divider-theme="b" data-inset="true">
+		<li data-role="list-divider" role="heading">
+			Oppdragsinfo
+		</li>
+		
+		<li data-theme="c">
+			<a data-transition="slide" id="project-type">
+				Oppdragstype
+				<span class="ui-li-count">
+				</span>
+			</a>
+		</li>		
+		<li data-theme="c" id="project-status">
+			<a>
+				Status
+				<span class="ui-li-count">
+				</span>
+			</a>
+		</li>
+		<li data-theme="c" id="project-phase">
+			<a>
+				Fase
+				<span class="ui-li-count">
+				</span>
+			</a>
+		</li>
+		<li data-theme="c">
+			<a id="project-images">
+				Bilder
+				<span class="ui-li-count">
+				</span>
+			</a>
+		</li>		
+	</ul>
+	<ul data-role="listview" data-divider-theme="b" data-inset="true">
+		<li data-role="list-divider" role="heading">
+			Notater
+		</li>
+		<li data-theme="c">
+			<a id="project-note-view">
+			</a>
+		</li>		
+	</ul>
+	<ul data-role="listview" data-divider-theme="b" data-inset="true" id="building-list">
+		<li data-role="list-divider" role="heading">
+			Bygninger
+		</li>
+	</ul>
+	<ul data-role="listview" data-divider-theme="b" data-inset="true" id="contact-list">
+		<li data-role="list-divider" role="heading">
+			Deltakere
+		</li>
+	</ul>	
+</div>
+  <div data-role="navbar" data-iconpos="left">
+    <ul>
+      <li>
+        <a id="reset-project" data-theme="a" data-icon="refresh" >
+         Nullstill lokale endringer
+        </a>
+      </li>
+    </ul>
+  </div>
+<div data-theme="a" data-role="footer" data-position="fixed">
+	<div data-role="navbar" data-iconpos="left">
+		<ul>
+			<li>
+				<a id="new-building" data-theme="" data-icon="plus">
+					Ny bygning
+				</a>
+			</li>
+			<li>
+				<a id="new-contact" data-theme="" data-icon="plus">
+					Ny deltaker
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
